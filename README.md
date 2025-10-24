@@ -42,5 +42,6 @@ Al ejecutar `main.py`, el programa:
 3. Aplica los cambios y muestra los resultados actualizados.
 
 Ejemplo de salida:
+
 <img width="744" height="434" alt="image" src="https://github.com/user-attachments/assets/8c94b6c6-f426-4c37-bf84-43abb7d25d24" />
 
