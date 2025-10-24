@@ -5,7 +5,7 @@ Este proyecto implementa un ejemplo sencillo del patrón MVVM en Python, utiliza
 ## Estructura del proyecto
 
 - **Observable.py**  
-  Contiene la clase `Observable`, que permite suscribirse a cambios en un valor y notifica automáticamente a todos los observadores cuando este cambia.
+  Contiene la clase Observable, que permite suscribirse a cambios en un valor y notifica automáticamente a todos los observadores cuando este cambia.
 <img width="542" height="351" alt="image" src="https://github.com/user-attachments/assets/2557587a-9cf9-4fac-acc8-8d329516bb58" />
 
 - **model.py**  
@@ -28,14 +28,14 @@ Este proyecto implementa un ejemplo sencillo del patrón MVVM en Python, utiliza
 
 ## Funcionamiento
 
-1. El **model** (`Animal y sus subclases) define los datos y comportamientos básicos de los animales.
-2. El **ViewModel** (`AnimalVM`) convierte esos datos en propiedades observables y ofrece métodos para modificarlos.
-3. La **vista** (`AnimalView`) se suscribe a los observables y reacciona automáticamente cuando cambian, mostrando mensajes en consola.
+1. El **model** (Animal y sus subclases) define los datos y comportamientos básicos de los animales.
+2. El **ViewModel** (AnimalVM) convierte esos datos en propiedades observables y ofrece métodos para modificarlos.
+3. La **vista** (AnimalView) se suscribe a los observables y reacciona automáticamente cuando cambian, mostrando mensajes en consola.
 4. El **usuario** puede decidir si quiere cambiar el nombre, la edad o el sonido de un animal. Al hacerlo, la vista recibe notificaciones y actualiza la salida en tiempo real.
 
 ## Ejemplo de uso
 
-Al ejecutar `main.py`, el programa:
+Al ejecutar main.py, el programa:
 
 1. Muestra los datos iniciales de los animales.
 2. Pregunta al usuario si desea cambiar el nombre, la edad o el sonido.
